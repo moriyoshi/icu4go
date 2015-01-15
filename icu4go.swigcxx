@@ -1,0 +1,18 @@
+%module icu4go
+
+%include "icu_version.i"
+
+%include "typemaps.i"
+%include "utypes.i"
+%include "ucnv.i"
+%include "uenum.i"
+%include "uset.i"
+%include "uniset.i"
+%include "errorcode.i"
+%include "ucsdet.i"
+%include "strenum.i"
+%include "translit.i"
+%include "locale.i"
+#ifdef ICU4GO_FEATURE_NORMALIZER2
+%include "normalizer2.i"
+#endif
